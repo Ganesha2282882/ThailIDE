@@ -1,0 +1,7 @@
+I am creating a Flask CDN.
+
+I moved the env for security.
+
+I also replaced Google Login with Repl Auth
+
+i can only code html and c#-Adria @Adria it's fine

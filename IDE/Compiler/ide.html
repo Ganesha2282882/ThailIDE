@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THAIL Editor</title>
+  </head>
+  <body>
+    <div id="editor" style="width:500px;height:500px;">print = "Hello world!".</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.9/ace.min.js"></script>
+    <script>
+      var editor = ace.edit("editor");
+      editor.setTheme("ace/theme/monokai");
+      editor.session.setMode("ace/mode/javascript");
+    </script>
+  </body>
+</html>

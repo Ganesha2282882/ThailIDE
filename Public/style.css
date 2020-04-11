@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap');
+cssmakeitright {
+		font-family: 'Roboto Slab', serif;
+		font-size: 22px;
+		color: blue;
+		background: rgb(16, 42, 62);
+
+	}
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	color: blue;
+	background: rgb(16, 42, 62);
+}
+
+  .link1
+  {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: solid blue;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+  }
+  #COVID19{
+    background:rgb(255, 79, 79);
+  }
+
+  /* Thanks Liam!*/
