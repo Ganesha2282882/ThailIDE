@@ -5,3 +5,5 @@ I moved the env for security.
 I also replaced Google Login with Repl Auth
 
 i can only code html and c#-Adria @Adria it's fine
+
+I reccomend modifiying the liscense, other people shouldn't be allowed to *sell* this for free @SF
