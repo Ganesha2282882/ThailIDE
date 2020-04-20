@@ -1,0 +1,20 @@
+native function comments
+  (ARGS) => {
+    return;
+  }
+constructor comments ({//$1},{[["1","comment"]]},{[]})
+
+// Put your code here to create your language. If you change the comment syntax, change the syntax used for this comment as well. Multiline comments are not yet enabled and will require a change in the function reading system as well. Included already in this demo language are the string data type and a print function based on the upcoming THAIL programming language.
+
+
+native function string
+  (ARGS) => {
+    return String(ARGS.txt)
+  }
+constructor string ({"$1"},{[["1","txt"]]},{[]})
+constructor string ({'$1'},{[["1","txt"]]},{[]})
+native function print
+  (ARGS) => {
+    console.log(ARGS.txt);
+  }
+constructor print ({print = $1.},{[["1","txt"]]},{["txt"]})

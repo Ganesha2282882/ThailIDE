@@ -1,15 +1,9 @@
-<UsernamesAndPasswords>
-  <Ganesha>
-    <Username>GaneshaSharma</Username>
-    <Password>Ganesha@Programs652</Password>
-  </Ganesha>
-  <Liam>
-    <Username>LiamDonohue</Username>
-    <Password>Liam@Programs431</Password>
-  </Liam>
-  <ThailDevAdmin>
-   <Username>ThailAdmin</Username>
-   <Password>Tha1l@dm1n</Password>
-  </ThailDevAdmin>
-  
-</UsernamesAndPasswords>
+<!-- JSON and XML redesigned by StudentFires -->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+  <user nick="Ganesha" name="GaneshaSharma" password="Ganesha@Programs652"/>
+  <user nick="Liam" name="LiamDonohue" password="Liam@Programs431"/>
+  <user nick="Coder100" name="Coder100" password="Iamthecodergod123"/>
+  <user nick="SF" name="StudentFires" password="FireIsLit"/>
+  <user nick="ThailDevAdmin" name="ThailAdmin" password="Tha1l@dm1n"/>
+</users>

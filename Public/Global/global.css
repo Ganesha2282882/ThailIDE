@@ -1,0 +1,22 @@
+/* This is the "global" stylesheet.
+This is where things that we would reuse across every page should be.
+It shouldn't contain anything specific to any single page.
+*/
+
+:root
+{
+  --THAILcolor: rgba(0, 0, 0, 0);
+}
+
+.center
+{
+  margin: auto;
+}
+
+noscript
+{
+  position: absolute;
+  z-index: 10; /* To make sure it isn't covered by anthing else*/
+  background: yellow; /*Bright & noticeable*/
+  top: 0; /*Where you can see it easily*/
+}

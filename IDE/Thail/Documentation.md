@@ -31,10 +31,10 @@ hello = new hello.
 
 ## Methods
 ```
-static method new()
+static  new().
 // Stuff
 end static method.
-string method new
+static string  new.
 //Stuff
 end string method.
 ```
@@ -92,11 +92,19 @@ add 5 to average.
 end dataset.
 ```
 
-## Importing namespaces
+## maybe ##
+
+
 ```
 import system.
 ```
+
+[](StudentFires-recommendation,-no-imports.-everything-shoudl-already-be-there)
+
+[](This-makes-it-easier-for-beginners-too)
+
 ## namespaces
+
 ```
 system.
 math.
@@ -104,3 +112,4 @@ math.geo.
 system.graphics.
 math.calc.
 math.complex.
+```

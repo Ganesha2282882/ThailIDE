@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Use an XML declaration at the top -->
+
+<DOCTYPE html>
+<!-- Doctype declaration is unecessary in XHTML -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<!-- Make sure to include the xhtml namespace xmlns="..."
+Don't include a "lang" attribute, but if you do, it must be the same as the xml:lang-->
+
+  <head>
+    <meta charset="utf-8"/><!-- useless in XHTML -->
+    <title>XHTML Example</title>
+    <script src="/script.js"></script> <!-- HTML -->
+    <script src="/script.js"/> <!-- XHTML -->
+
+    <!-- Check out my *bio* to support XHTML in Repl, plz -->
+    <!--reload your page, come back -->
+  </head>
+  <body>
+    <h1>Hola, mundo!</h1>
+  </body>
+</html>
+
+
+<html>
+  <!-- Only one root element is allowed in XHTML -->
+  <!-- Only the XML declaration, spaces, and comments are allowed outside of the root tag -->
+</html>

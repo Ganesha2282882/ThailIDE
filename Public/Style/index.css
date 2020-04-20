@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap);
+
+#COVID19 > strong
+{
+  color: #ffd9d9;
+}
+
+footer
+{
+  background: white;
+}
+body{
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+
+#discord
+{
+  width: 50;
+}
+
+img:nth-of-type(2)
+{
+  width: 50;
+}

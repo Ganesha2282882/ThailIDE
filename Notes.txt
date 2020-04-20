@@ -6,4 +6,32 @@ I also replaced Google Login with Repl Auth
 
 i can only code html and c#-Adria @Adria it's fine
 
-I reccomend modifiying the liscense, other people shouldn't be allowed to *sell* this for free @SF
+We need a global CSS stylesheet that can be applied to every page without damaging them; it should have a few things we'll reuse, like a primary color pallet that will be used to represent T.H.A.I.L. @SF
+
+AmazingMech2418 - With the randomly named JSON file, I would recommend hashing passwords. Also, the JSON file has been edited and will return errors if used. I'm not sure if that is still being used though... It seems like the sign-in page is set to just go to the dash.html file without actually processing the form though... Also, why is there a repl.run in the dash.html file? Also, for the index.js file, may I recommend using ServerLight (my own NPM package) instead of Express for file size reasons. Repls have a 400MB limit overall and the free accounts have a 100MB limit (@LiamDonohue, that means that you have only 100MB for all of your repls including this one) and, while I don't think this repl will end up that large, it would still be best to try and use the lighter-weight modules when possible. However, it doesn't include the express.static() function, so at least for right now, if we switch to ServerLight, we will need to type out for every file in here. Also, where is the compiler/interpreter being developed? However, with the express.static() thing, it would be fairly easy to create a crawler to add all the files as well. Also, the dotenv module is not needed. There already is a process.env.WHATEVER in Node. Though, really, can someone just briefly explain what is already here and what needs to be done?
+
+<StudentFires>
+
+Not sure if it was AmazingMech2418 or someone else, but it looks like the JSON and XML files I quickly reworked were sabotaged for some reason. I'll re-fix them and see if what Mech said was true, and whether or not they were erroneous or perfectly fine.
+
+The compiler is currently at step 0, 0% complete. It's being developed in the (root folder) > IDE
+
+Update, re-fixed the JSON; the NODE JS JSON parser didn't thrown any syntax errors. The tile is in Public > XML&JSON.
+
+Tested the updated XML too, my Google Chrome XML parser didn't throw any parsing errors either. It seems the JSON you had seen was the damaged version.
+
+</StudentFires>
+
+Amazingmech2418 - I'm not sure who destroyed the JSON and XML files. Also, for (root folder) > IDE, do you mean the Compiler or Thail folder? I'm going to add in the custom constructor system to the IDE folder itself since I'm not sure which subfolder to do it in. 
+
+(still AmazingMech2418) Update: I added the custom constructors in customconstructor.js. Lines 6 to 76 are example constructors and from 77 to 91 are for the demo, but should not be deleted. At the bottom, I also kept the demo program.
+
+(again, still AmazingMech2418)I have two ideas on how to use the custom constructors for development. Either I can create a basic Adapt (another in-development programming language that I'm creating) interpreter and we can program THAIL in Adapt as an Adapt dialect, then removing the Adapt features to make THAIL its own langauge, or we can just add custom constructors directly to the THAIL language. Both will have the same speed, but programming it in Adapt may allow people like @LizFoster who don't know JavaScript to program functions for THAIL.
+
+<StudentFires>
+
+I can convert between multiple languages (human & coding) with high accuracy, or at least keeping the same semantic meaning. Python is one of those languages, among them are C, C++, JS (*Node and browser*), PHP, Java...
+
+Honestly, we need a chat section.
+
+</StudentFires>
