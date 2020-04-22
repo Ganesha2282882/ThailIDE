@@ -293,25 +293,22 @@ let syntax = {
     quoteSets: ['"',"'",'`'],
     whitespace: [' ','  '],
     lineend: "\n",
-    indents: '  '
+    indents: false
 };
 
-// This will need to be reworked for browser JS
-let fs = require('fs');
-/* Read Adapt language program */
-let program = fs.readFileSync('language.adapt').toString();
-let _l = compileLines(program,syntaxoptions);
-for(let line of _l) {
-  readFunction(line);
-}
-
-/* Remove Adapt constructors to make this YOUR langauge */
-constructors.shift();
-constructors.shift();
-
-/* Read your program */
-program = fs.readFileSync('index.adapt').toString();
-_l = compileLines(program,syntax);
-for(let line of _l) {
-  readFunction(line);
-}
+$.get("language.adapt",d=>{
+  let program = d;
+  let _l = compileLines(program,syntaxoptions);
+  for(let line of _l) {
+    readFunction(line);
+  }
+  constructors.shift();
+  constructors.shift();
+  $.get("index.adapt",n=>{
+    let program = n;
+    let _l = compileLines(program,syntaxoptions);
+    for(let line of _l) {
+      readFunction(line);
+    }
+  });
+});

@@ -17,4 +17,9 @@ native function print
   (ARGS) => {
     console.log(ARGS.txt);
   }
+native function userinput
+  (ARGS) => {
+    return prompt('');
+  }
+constructor userinput ({userinput()},{[]},{[]})
 constructor print ({print = $1.},{[["1","txt"]]},{["txt"]})
