@@ -1,7 +1,7 @@
 "use strict";
 
-let constructors = [];
-function newConstructor(fn,c) {
+const constructors = [],
+newConstructor = (fn,c) => {
   constructors.push([fn, c]);
 }
 
