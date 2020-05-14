@@ -20,7 +20,7 @@ app.use( async (req, res, next) =>
 
 // SF: Is "__dirname" really necessary?
 
-app.use(express.static(__dirname + "/Public", {index: `index.xhtml`}));
+app.use(express.static(__dirname + "/Public", {index: `index.html`}));
 
 app.use("/comp", express.static(__dirname + "/IDE/Compiler"));
 
